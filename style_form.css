@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fullbody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background\ image.jpg");
+    background-size:cover ;
+}
+.form{
+    /* margin-top: 100px; */
+    height: 480px;
+    width: 550px;
+    border: 2px solid black;
+    /* flex-wrap: wrap; */
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+/* heading */
+
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* user information */
+
+.userinfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+    /* border:2px solid black ; */
+    margin-top: 10px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    /* margin-right: 20px;
+    margin-left: 10px; */
+}
+
+input{
+    margin-top: 5px;
+    background-color: azure;
+    font-size: 0.85rem;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+/* user gender */
+.usergender{
+    margin: 30px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    height: 70px;
+    /* border: 2px solid black; */
+    
+}
+
+.select{
+    
+    margin-left: 15px;
+    
+}
+.usergender input{
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+/* submit */
+
+.submit{
+    /* border: 2px solid black; */
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    width: 90%;
+    font-weight: 600;
+    height: 35px;
+    background-color: rgb(221, 216, 216);
+    font-size: 1rem;
+}
